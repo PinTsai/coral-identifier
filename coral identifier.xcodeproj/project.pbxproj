@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D08E51F2CACF1A40006D4F2 /* CoralData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E51E2CACF1A40006D4F2 /* CoralData.swift */; };
+		8D08E5212CAD129A0006D4F2 /* CurvedSectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E5202CAD129A0006D4F2 /* CurvedSectionLayout.swift */; };
+		8D08E5232CAD12B20006D4F2 /* VideoSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E5222CAD12B20006D4F2 /* VideoSection.swift */; };
+		8D08E5252CAD12CF0006D4F2 /* ArticleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E5242CAD12CF0006D4F2 /* ArticleSection.swift */; };
+		8D08E5272CAD12E00006D4F2 /* QuizSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E5262CAD12E00006D4F2 /* QuizSection.swift */; };
+		8D08E52A2CAD200E0006D4F2 /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08E5292CAD200E0006D4F2 /* ArticleData.swift */; };
+		8D125C902CB759050009E621 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D125C8F2CB759050009E621 /* ImagePredictor.swift */; };
+		8D125C922CB7800F0009E621 /* ImageProcessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D125C912CB7800F0009E621 /* ImageProcessingManager.swift */; };
+		8D1855782CB9604F007ADC2E /* ArticleDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1855772CB9604F007ADC2E /* ArticleDeleteView.swift */; };
+		8D18557A2CBA73AE007ADC2E /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1855792CBA73AE007ADC2E /* VideoData.swift */; };
+		8D18557C2CBA817D007ADC2E /* VideoAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18557B2CBA817D007ADC2E /* VideoAddView.swift */; };
+		8D18557E2CBB9F07007ADC2E /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18557D2CBB9F07007ADC2E /* ImageManager.swift */; };
+		8D1855802CBBE192007ADC2E /* coral identifier.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8D18557F2CBBE192007ADC2E /* coral identifier.docc */; };
+		8D20C9202D55C2FF00AE23C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D20C91F2D55C2FF00AE23C3 /* GoogleService-Info.plist */; };
+		8D35685F2CB78ECB009B09E9 /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D35685E2CB78ECB009B09E9 /* VNClassificationObservation+confidenceString.swift */; };
+		8D3568612CB78EF2009B09E9 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3568602CB78EF2009B09E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		8D3568632CB7A591009B09E9 /* ClassificationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3568622CB7A591009B09E9 /* ClassificationResultView.swift */; };
+		8D3CEEF42CAE6251000E35AD /* ArticalAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CEEF32CAE6251000E35AD /* ArticalAddView.swift */; };
+		8D3CEEFA2CAF8263000E35AD /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CEEF92CAF8263000E35AD /* ArticleView.swift */; };
+		8D3CEEFE2CAFD8FE000E35AD /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CEEFD2CAFD8FE000E35AD /* Button.swift */; };
+		8D44B42A2D780B5B008BD7A8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D44B4292D780B5B008BD7A8 /* LoginView.swift */; };
+		8D59B4E52C80671900D9ED64 /* RopaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D59B4E42C80671900D9ED64 /* RopaSans-Regular.ttf */; };
+		8D59B4E72C80672400D9ED64 /* RopaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D59B4E62C80672400D9ED64 /* RopaSans-Italic.ttf */; };
+		8D59B4EE2C81958F00D9ED64 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4ED2C81958F00D9ED64 /* ImagePicker.swift */; };
+		8D59B4F02C81970900D9ED64 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4EF2C81970900D9ED64 /* TabBarShape.swift */; };
+		8D59B4F22C81979100D9ED64 /* CustomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4F12C81979100D9ED64 /* CustomTabs.swift */; };
+		8D59B4F42C81C1F100D9ED64 /* MyCorals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4F32C81C1F100D9ED64 /* MyCorals.swift */; };
+		8D59B4F62C81C55200D9ED64 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4F52C81C55200D9ED64 /* ExploreView.swift */; };
+		8D59B4F82C81D37F00D9ED64 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4F72C81D37F00D9ED64 /* MoreView.swift */; };
+		8D59B4FA2C81D3BE00D9ED64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D59B4F92C81D3BE00D9ED64 /* HomeView.swift */; };
+		8D80AFBB2CB4C49D0019732A /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80AFBA2CB4C49D0019732A /* WeatherData.swift */; };
+		8D80AFBD2CB4CF170019732A /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80AFBC2CB4CF170019732A /* WeatherViewModel.swift */; };
+		8D80AFBF2CB6B93F0019732A /* CoralClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D80AFBE2CB6B93F0019732A /* CoralClassifier.mlmodel */; };
+		8DC85CB62CCF47BF00C750AF /* APIKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC85CB52CCF47BF00C750AF /* APIKeyManager.swift */; };
+		8DF7FAE02C7F05F800D5EE1B /* coral_identifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7FADF2C7F05F800D5EE1B /* coral_identifierApp.swift */; };
+		8DF7FAE22C7F05F800D5EE1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7FAE12C7F05F800D5EE1B /* ContentView.swift */; };
+		8DF7FAE42C7F05FA00D5EE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7FAE32C7F05FA00D5EE1B /* Assets.xcassets */; };
+		8DF7FAE72C7F05FA00D5EE1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7FAE62C7F05FA00D5EE1B /* Preview Assets.xcassets */; };
+		A4B82A8BA41D01306A3B760D /* Pods_coral_identifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90E85F75B36254F128C49BB /* Pods_coral_identifier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D5189B7471AB4EF7F8F961F /* Pods-coral identifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coral identifier.release.xcconfig"; path = "Target Support Files/Pods-coral identifier/Pods-coral identifier.release.xcconfig"; sourceTree = "<group>"; };
+		8D08E51E2CACF1A40006D4F2 /* CoralData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoralData.swift; sourceTree = "<group>"; };
+		8D08E5202CAD129A0006D4F2 /* CurvedSectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedSectionLayout.swift; sourceTree = "<group>"; };
+		8D08E5222CAD12B20006D4F2 /* VideoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSection.swift; sourceTree = "<group>"; };
+		8D08E5242CAD12CF0006D4F2 /* ArticleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSection.swift; sourceTree = "<group>"; };
+		8D08E5262CAD12E00006D4F2 /* QuizSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSection.swift; sourceTree = "<group>"; };
+		8D08E5292CAD200E0006D4F2 /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		8D125C8F2CB759050009E621 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		8D125C912CB7800F0009E621 /* ImageProcessingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingManager.swift; sourceTree = "<group>"; };
+		8D1855772CB9604F007ADC2E /* ArticleDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDeleteView.swift; sourceTree = "<group>"; };
+		8D1855792CBA73AE007ADC2E /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		8D18557B2CBA817D007ADC2E /* VideoAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAddView.swift; sourceTree = "<group>"; };
+		8D18557D2CBB9F07007ADC2E /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		8D18557F2CBBE192007ADC2E /* coral identifier.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = "coral identifier.docc"; sourceTree = "<group>"; };
+		8D20C91F2D55C2FF00AE23C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D35685E2CB78ECB009B09E9 /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		8D3568602CB78EF2009B09E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		8D3568622CB7A591009B09E9 /* ClassificationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationResultView.swift; sourceTree = "<group>"; };
+		8D3CEEF32CAE6251000E35AD /* ArticalAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticalAddView.swift; sourceTree = "<group>"; };
+		8D3CEEF92CAF8263000E35AD /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		8D3CEEFD2CAFD8FE000E35AD /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		8D44B4292D780B5B008BD7A8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8D59B4E42C80671900D9ED64 /* RopaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Regular.ttf"; sourceTree = "<group>"; };
+		8D59B4E62C80672400D9ED64 /* RopaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Italic.ttf"; sourceTree = "<group>"; };
+		8D59B4E82C80ABA900D9ED64 /* coral-indetifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "coral-indetifier-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8D59B4ED2C81958F00D9ED64 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8D59B4EF2C81970900D9ED64 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		8D59B4F12C81979100D9ED64 /* CustomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabs.swift; sourceTree = "<group>"; };
+		8D59B4F32C81C1F100D9ED64 /* MyCorals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCorals.swift; sourceTree = "<group>"; };
+		8D59B4F52C81C55200D9ED64 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		8D59B4F72C81D37F00D9ED64 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		8D59B4F92C81D3BE00D9ED64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D80AFBA2CB4C49D0019732A /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		8D80AFBC2CB4CF170019732A /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		8D80AFBE2CB6B93F0019732A /* CoralClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoralClassifier.mlmodel; sourceTree = "<group>"; };
+		8DC85CB52CCF47BF00C750AF /* APIKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyManager.swift; sourceTree = "<group>"; };
+		8DF45739899E29799A2A451F /* Pods-coral identifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coral identifier.debug.xcconfig"; path = "Target Support Files/Pods-coral identifier/Pods-coral identifier.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF7FADC2C7F05F800D5EE1B /* coral identifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coral identifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF7FADF2C7F05F800D5EE1B /* coral_identifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coral_identifierApp.swift; sourceTree = "<group>"; };
+		8DF7FAE12C7F05F800D5EE1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DF7FAE32C7F05FA00D5EE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF7FAE62C7F05FA00D5EE1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D90E85F75B36254F128C49BB /* Pods_coral_identifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coral_identifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF7FAD92C7F05F800D5EE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B82A8BA41D01306A3B760D /* Pods_coral_identifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297AA04A025ED16FBD75082C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90E85F75B36254F128C49BB /* Pods_coral_identifier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D125C8D2CB6C6420009E621 /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D80AFBE2CB6B93F0019732A /* CoralClassifier.mlmodel */,
+			);
+			path = MLModel;
+			sourceTree = "<group>";
+		};
+		8D125C8E2CB758D10009E621 /* Image Predictor */ = {
+			isa = PBXGroup;
+			children = (
+				8D125C8F2CB759050009E621 /* ImagePredictor.swift */,
+			);
+			path = "Image Predictor";
+			sourceTree = "<group>";
+		};
+		8D125C932CB7801C0009E621 /* Image Classifior */ = {
+			isa = PBXGroup;
+			children = (
+				8D125C912CB7800F0009E621 /* ImageProcessingManager.swift */,
+			);
+			path = "Image Classifior";
+			sourceTree = "<group>";
+		};
+		8D2767462C9C4F9A00874698 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D59B4ED2C81958F00D9ED64 /* ImagePicker.swift */,
+				8DC85CB52CCF47BF00C750AF /* APIKeyManager.swift */,
+				8D18557D2CBB9F07007ADC2E /* ImageManager.swift */,
+				8D08E51E2CACF1A40006D4F2 /* CoralData.swift */,
+				8D08E5292CAD200E0006D4F2 /* ArticleData.swift */,
+				8D1855792CBA73AE007ADC2E /* VideoData.swift */,
+				8D80AFBA2CB4C49D0019732A /* WeatherData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D2767482C9C4FE800874698 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7FAE12C7F05F800D5EE1B /* ContentView.swift */,
+				8D59B4F92C81D3BE00D9ED64 /* HomeView.swift */,
+				8D44B4292D780B5B008BD7A8 /* LoginView.swift */,
+				8D59B4F32C81C1F100D9ED64 /* MyCorals.swift */,
+				8D59B4F12C81979100D9ED64 /* CustomTabs.swift */,
+				8D59B4F52C81C55200D9ED64 /* ExploreView.swift */,
+				8D59B4F72C81D37F00D9ED64 /* MoreView.swift */,
+				8D3568622CB7A591009B09E9 /* ClassificationResultView.swift */,
+				8D08E5242CAD12CF0006D4F2 /* ArticleSection.swift */,
+				8D3CEEF32CAE6251000E35AD /* ArticalAddView.swift */,
+				8D18557B2CBA817D007ADC2E /* VideoAddView.swift */,
+				8D1855772CB9604F007ADC2E /* ArticleDeleteView.swift */,
+				8D08E5222CAD12B20006D4F2 /* VideoSection.swift */,
+				8D08E5262CAD12E00006D4F2 /* QuizSection.swift */,
+				8D3CEEFD2CAFD8FE000E35AD /* Button.swift */,
+				8D08E5202CAD129A0006D4F2 /* CurvedSectionLayout.swift */,
+				8D59B4EF2C81970900D9ED64 /* TabBarShape.swift */,
+				8D3CEEF92CAF8263000E35AD /* ArticleView.swift */,
+				8D80AFBC2CB4CF170019732A /* WeatherViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D35685D2CB78E3E009B09E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D35685E2CB78ECB009B09E9 /* VNClassificationObservation+confidenceString.swift */,
+				8D3568602CB78EF2009B09E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D59B4E32C80669600D9ED64 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8D59B4E62C80672400D9ED64 /* RopaSans-Italic.ttf */,
+				8D59B4E42C80671900D9ED64 /* RopaSans-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8DF7FAD32C7F05F800D5EE1B = {
+			isa = PBXGroup;
+			children = (
+				8DF7FADE2C7F05F800D5EE1B /* coral identifier */,
+				8DF7FADD2C7F05F800D5EE1B /* Products */,
+				D8A11EDE5F9D27A06A4CBDC5 /* Pods */,
+				297AA04A025ED16FBD75082C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF7FADD2C7F05F800D5EE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7FADC2C7F05F800D5EE1B /* coral identifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF7FADE2C7F05F800D5EE1B /* coral identifier */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7FADF2C7F05F800D5EE1B /* coral_identifierApp.swift */,
+				8D2767482C9C4FE800874698 /* View */,
+				8D2767462C9C4F9A00874698 /* Model */,
+				8D35685D2CB78E3E009B09E9 /* Extensions */,
+				8D125C932CB7801C0009E621 /* Image Classifior */,
+				8D125C8E2CB758D10009E621 /* Image Predictor */,
+				8D125C8D2CB6C6420009E621 /* MLModel */,
+				8D59B4E82C80ABA900D9ED64 /* coral-indetifier-Info.plist */,
+				8D59B4E32C80669600D9ED64 /* Font */,
+				8DF7FAE32C7F05FA00D5EE1B /* Assets.xcassets */,
+				8D20C91F2D55C2FF00AE23C3 /* GoogleService-Info.plist */,
+				8DF7FAE52C7F05FA00D5EE1B /* Preview Content */,
+				8D18557F2CBBE192007ADC2E /* coral identifier.docc */,
+			);
+			path = "coral identifier";
+			sourceTree = "<group>";
+		};
+		8DF7FAE52C7F05FA00D5EE1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7FAE62C7F05FA00D5EE1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8A11EDE5F9D27A06A4CBDC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DF45739899E29799A2A451F /* Pods-coral identifier.debug.xcconfig */,
+				1D5189B7471AB4EF7F8F961F /* Pods-coral identifier.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF7FADB2C7F05F800D5EE1B /* coral identifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF7FAEA2C7F05FA00D5EE1B /* Build configuration list for PBXNativeTarget "coral identifier" */;
+			buildPhases = (
+				9324243B53CC183934C46811 /* [CP] Check Pods Manifest.lock */,
+				8DF7FAD82C7F05F800D5EE1B /* Sources */,
+				8DF7FAD92C7F05F800D5EE1B /* Frameworks */,
+				8DF7FADA2C7F05F800D5EE1B /* Resources */,
+				CBAB84C02DDA624995AE2B99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "coral identifier";
+			productName = "coral indetifier";
+			productReference = 8DF7FADC2C7F05F800D5EE1B /* coral identifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF7FAD42C7F05F800D5EE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8DF7FADB2C7F05F800D5EE1B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8DF7FAD72C7F05F800D5EE1B /* Build configuration list for PBXProject "coral identifier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DF7FAD32C7F05F800D5EE1B;
+			packageReferences = (
+				8D063F812CAA97AE001203BB /* XCRemoteSwiftPackageReference "sdk" */,
+			);
+			productRefGroup = 8DF7FADD2C7F05F800D5EE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DF7FADB2C7F05F800D5EE1B /* coral identifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF7FADA2C7F05F800D5EE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF7FAE72C7F05FA00D5EE1B /* Preview Assets.xcassets in Resources */,
+				8D59B4E72C80672400D9ED64 /* RopaSans-Italic.ttf in Resources */,
+				8D20C9202D55C2FF00AE23C3 /* GoogleService-Info.plist in Resources */,
+				8D59B4E52C80671900D9ED64 /* RopaSans-Regular.ttf in Resources */,
+				8DF7FAE42C7F05FA00D5EE1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9324243B53CC183934C46811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coral identifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAB84C02DDA624995AE2B99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coral identifier/Pods-coral identifier-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coral identifier/Pods-coral identifier-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coral identifier/Pods-coral identifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF7FAD82C7F05F800D5EE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3CEEF42CAE6251000E35AD /* ArticalAddView.swift in Sources */,
+				8D08E51F2CACF1A40006D4F2 /* CoralData.swift in Sources */,
+				8D35685F2CB78ECB009B09E9 /* VNClassificationObservation+confidenceString.swift in Sources */,
+				8D18557E2CBB9F07007ADC2E /* ImageManager.swift in Sources */,
+				8D59B4FA2C81D3BE00D9ED64 /* HomeView.swift in Sources */,
+				8D59B4EE2C81958F00D9ED64 /* ImagePicker.swift in Sources */,
+				8D59B4F62C81C55200D9ED64 /* ExploreView.swift in Sources */,
+				8D59B4F02C81970900D9ED64 /* TabBarShape.swift in Sources */,
+				8D18557C2CBA817D007ADC2E /* VideoAddView.swift in Sources */,
+				8D3CEEFE2CAFD8FE000E35AD /* Button.swift in Sources */,
+				8D3CEEFA2CAF8263000E35AD /* ArticleView.swift in Sources */,
+				8D1855782CB9604F007ADC2E /* ArticleDeleteView.swift in Sources */,
+				8DC85CB62CCF47BF00C750AF /* APIKeyManager.swift in Sources */,
+				8DF7FAE22C7F05F800D5EE1B /* ContentView.swift in Sources */,
+				8D3568632CB7A591009B09E9 /* ClassificationResultView.swift in Sources */,
+				8D1855802CBBE192007ADC2E /* coral identifier.docc in Sources */,
+				8D59B4F22C81979100D9ED64 /* CustomTabs.swift in Sources */,
+				8D08E5252CAD12CF0006D4F2 /* ArticleSection.swift in Sources */,
+				8D08E5212CAD129A0006D4F2 /* CurvedSectionLayout.swift in Sources */,
+				8D18557A2CBA73AE007ADC2E /* VideoData.swift in Sources */,
+				8D08E52A2CAD200E0006D4F2 /* ArticleData.swift in Sources */,
+				8D125C902CB759050009E621 /* ImagePredictor.swift in Sources */,
+				8D3568612CB78EF2009B09E9 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				8D08E5272CAD12E00006D4F2 /* QuizSection.swift in Sources */,
+				8D08E5232CAD12B20006D4F2 /* VideoSection.swift in Sources */,
+				8D125C922CB7800F0009E621 /* ImageProcessingManager.swift in Sources */,
+				8D80AFBB2CB4C49D0019732A /* WeatherData.swift in Sources */,
+				8DF7FAE02C7F05F800D5EE1B /* coral_identifierApp.swift in Sources */,
+				8D80AFBD2CB4CF170019732A /* WeatherViewModel.swift in Sources */,
+				8D80AFBF2CB6B93F0019732A /* CoralClassifier.mlmodel in Sources */,
+				8D44B42A2D780B5B008BD7A8 /* LoginView.swift in Sources */,
+				8D59B4F42C81C1F100D9ED64 /* MyCorals.swift in Sources */,
+				8D59B4F82C81D37F00D9ED64 /* MoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DF7FAE82C7F05FA00D5EE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DF7FAE92C7F05FA00D5EE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF7FAEB2C7F05FA00D5EE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF45739899E29799A2A451F /* Pods-coral identifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coral identifier/Preview Content\"";
+				DEVELOPMENT_TEAM = M2C68MRGR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "coral-indetifier-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires usage of camera to function property ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current weather information";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current weather information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.coral-indetifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DF7FAEC2C7F05FA00D5EE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5189B7471AB4EF7F8F961F /* Pods-coral identifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coral identifier/Preview Content\"";
+				DEVELOPMENT_TEAM = M2C68MRGR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "coral-indetifier-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires usage of camera to function property ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide current weather information";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide current weather information";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.coral-indetifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF7FAD72C7F05F800D5EE1B /* Build configuration list for PBXProject "coral identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF7FAE82C7F05FA00D5EE1B /* Debug */,
+				8DF7FAE92C7F05FA00D5EE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF7FAEA2C7F05FA00D5EE1B /* Build configuration list for PBXNativeTarget "coral identifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF7FAEB2C7F05FA00D5EE1B /* Debug */,
+				8DF7FAEC2C7F05FA00D5EE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D063F812CAA97AE001203BB /* XCRemoteSwiftPackageReference "sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-meteo/sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8DF7FAD42C7F05F800D5EE1B /* Project object */;
+}
