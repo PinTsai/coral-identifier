@@ -4,7 +4,6 @@
 Coral Identifier is an innovative mobile application that combines artificial intelligence and environmental data to help users identify and learn about coral species.
 Using advanced image recognition technology and real-time environmental data, this app serves as both an identification tool and an educational platform for marine enthusiasts.
 
-![App Banner](path_to_banner_image.png)
 
 ## Purpose & Vision
 Coral Identifier emerged from real-world experience in coral research and public education. 
