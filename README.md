@@ -24,17 +24,37 @@ Our vision extends beyond simple identification - we aim to:
 - High-accuracy image classification
 - Detailed species information
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fdad50e1-2caa-4c09-a642-7f2c1d211ea0" width="200" /> 
+  <img src="https://github.com/user-attachments/assets/297d3b9c-a660-4e90-b6f9-f1759a7245cf" width="200" /> 
+  <img src="https://github.com/user-attachments/assets/ba05856e-7478-43b2-99a1-00045c8a3229" width="200" /> 
+</p>
+
 ### Educational Content
 - Comprehensive knowledge base
 - Fun facts about coral species
 - Information about marine ecosystems
 - Conservation awareness resources
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d83b3188-c997-4dc4-8cb0-769a64b9e910" width="200" /> 
+  <img src="https://github.com/user-attachments/assets/064d560d-69ae-4cca-81f3-4e8dfb06b7e8" width="200" /> 
+</p>
+
+
 ### Environmental Monitoring
 - Real-time weather data
 - Marine conditions tracking (coming soon)
 - Location-based insights
 - Environmental alerts (coming soon)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b1232e6e-7831-4d6d-985f-c8ff09d8bb6e" width="200" /> 
+</p>
+
+
 
 ## Technical Requirements
 - iOS 14.0 or later
